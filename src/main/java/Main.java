@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class Main {
     public static void main(String args[]) {
         System.out.println("What year would you like to check?");
-        // ser du dette?
         // Gets input from user, saves input to year-variable
         Scanner input = new Scanner(System.in);
         int year = input.nextInt();
